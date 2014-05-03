@@ -1,0 +1,16 @@
+# TEAM
+
+    Andrew Stevens - webmaster - andxyz.com
+    Peter Stevens - content - thepeterstevens.com
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, tweet.seaofclouds.com
+
+# THANKS
+
+    internet
+
+# humanstxt.org/
+# The humans responsible & technology colophon
