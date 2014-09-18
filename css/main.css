@@ -234,6 +234,7 @@ nav a:hover {
 .wordbubble {
     position:absolute;
     margin: -260px -10px 10px -190px;
+    opacity: 0.85;
     
         
 }
@@ -313,14 +314,12 @@ dt {
 
 /*zzz petes tweeter */
 #tweeter-box {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
     background-color: #0E70A5;
     border: 2px solid #0E70A5;
     padding: 5px 20px ;
-    margin: px;
+
     position: relative; 
+    text-align: center;
 }
 
 #tweeter-content {
@@ -328,8 +327,11 @@ dt {
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: white;
-    padding: 0px 15px;
+    padding: 0px 5px;
     background: white;
+    max-width: 520px;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 #tweeter {
@@ -338,12 +340,6 @@ dt {
     position: relative;
 }
 
-#tweeter-logo {
-    position: absolute;
-	top:50px;
-	right:10px;
-	
-}
 
 /*zzz jquery.tweet.js stuff */
 .tweet, .query {
