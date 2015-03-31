@@ -2,6 +2,12 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+html * {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
 html,
 button,
 input,
@@ -11,16 +17,16 @@ textarea {
 }
 
 @font-face {
-	font-family: animeace2_reg;
-	src: url('/css/font/anime-ace/animeace2_reg.ttf');
+    font-family: 'animeace2_reg';
+    src: url('/css/font/anime-ace/animeace2_reg.ttf');
 }
 @font-face {
-	font-family: animeace2_ital;
-	src: url('/css/font/anime-ace/animeace2_ital.ttf');
+    font-family: 'animeace2_ital';
+    src: url('/css/font/anime-ace/animeace2_ital.ttf');
 }
 @font-face {
-	font-family: animeace2_bld;
-	src: url('/css/font/anime-ace/animeace2_bld.ttf');
+    font-family: 'animeace2_bld';
+    src: url('/css/font/anime-ace/animeace2_bld.ttf');
 }
 
 
@@ -52,6 +58,11 @@ img {
     vertical-align: middle;
 }
 
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 fieldset {
     border: 0;
     margin: 0;
@@ -79,21 +90,21 @@ body {
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+    width: 100%;
+    margin: 0;
 }
 
 /* ===================
     ALL: Orange Theme
    =================== */
 
-.header-container {
-    border-bottom: 20px solid #e44d26;
-}
+
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #1c4870; /*#0079ff;*/
+    border-top: 20px solid #1c4870;
+    text-align: center;
+    padding: 15px;
 }
 
 .header-container,
@@ -110,86 +121,109 @@ body {
     MOBILE: Menu
    ============== */
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: white;
-    background: #e44d26;
-}
-
-nav a:hover,
-nav a:visited {
-    color: white;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
 /* ==============
     MOBILE: Main
    ============== */
 
-.main {
-    padding: 30px 0;
+.main article h1 {
+    font-size:   50px;
+    line-height: 1;
+    font-family: "Courier New";
+    display: block;
+    margin: 10px 0px 0px 0px;
 }
 
-.main article h1 {
-    font-size: 66px;
-	line-height: 50px;
-	font-family: "courier new";
-	margin: 20px 20px 40px 20px;
-	
+
+.main-title-container {
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.main-title-menu-container {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-title-menu a:link, a:visited {
+    color: #9d9d9d;    
+    text-decoration: none;
+}
+
+.main-title-menu {
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+    vertical-align: middle;
+    line-height: 170%;
+    white-space: nowrap;
+    font-weight: 900;
+    padding: 0px 5px 0px 5px;
+    font-size: 24px;
+
+}
+
+    .logo-container {
+    display: inline-block;
+    margin: 10px;   
+}
+    
+    .logo-container img{
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+}
+
+.line-separator{
+
+height:1px;
+
+background:#bababa;
+
+border-bottom:1px solid #bababa;
+
+}
+
+
+
+@media screen and (max-width: 570px) {
+
+    .main article h1 {
+        display: block;
+        font-size: 28px;
+        line-height: 1;
+        font-family: "Courier New";
+        text-align: center;
+    }
+
+    .main-title-container {
+        margin-top:    10px;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    
+    .logo-container {
+    display: inline-block;
+    margin: 10px;
+}
+    
+    .logo-container img{
+    display: inline-block;
+    margin: 5px 0px 10px 0px;
+}
+   
 }
 
 .main article h1 a {
-	color: black;
-	text-decoration:none; 
+    color: black;
+    text-decoration:none;
 }
 
 .main article h1 a:hover,.main article h1 a:visited {
-	text-decoration: underline; 
+    text-decoration: underline;
 }
 
-.main article h2 {
-    font-size: 22px;
-	font-family: "courier new";
-}
 
-.main article h3 {
-    font-size: 66px;
-	line-height: 50px;
-	font-family: "courier new";
-	margin: 20px 20px 40px 20px;
-	
-}
- /*home page labels*/ 
-.main article h4 {
-    font-size: 16px;
-	line-height: 8px;
-	margin: 0px;
-	font-family: "courier new";
-	
-}
- /*home page project titles*/ 
-.main article h5 {
- 	font-size: 24px;
-	font-family: "courier new";
-	margin: 0px 0px 0px 0px;
-	
-}
- 
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -207,8 +241,7 @@ nav a:hover {
 .ie7 .title {
     padding-top: 20px;
 }
-
-/* ==========================================================================
+ ==========================================================================
    Author's custom styles zzz
    ========================================================================== */
 
@@ -226,44 +259,120 @@ nav a:hover {
     z-index: 2;
 }
 
-.pixelpeter {
-    float: right;
-    margin: -120px -100px 5px 5px;
+/* titles for navigation */
+
+.nav-title-bg {
+    background-color: #004F95;
+    border-bottom: 5px solid #1c4870;
+    border-top: 5px solid #1c4870;
+    margin-bottom: 5px;
+    margin-left: -5%;
 }
 
-.wordbubble {
-    position:absolute;
-    margin: -260px -10px 10px -190px;
-    opacity: 0.85;
-    
-        
-}
-
-.wordbubbletext {
-    position: absolute;
-    font-family: courier ;
-    font-size: 18px;
+.nav-title {
     color: white;
-    
-    line-height:110%;
-    margin: -140px 0px 0px 25px;
-    width:165px;
-    
+    font-size: 28px; 
+    margin:auto;
+    width: 80%;
 }
 
-.wordbubbletext a:link{
-    color: gold;
-    text-decoration:none;
+.a-link-text-dec-none a{
+    text-decoration: none;
 }
 
-.wordbubbletext a:visited{
-    color: gold;
-    text-decoration:none;
+.index-menu{
+    width: 50%;
 }
 
-.wordbubbletext a:hover{
-    color: gold;
-    text-decoration:none;
+.plain-item  p {
+    font-size: 18px;
+    line-height: 1.1;
+    margin: 10px 0px 4px 0px;
+}
+
+.pixelpeter-item {
+    width: 75%; /* see article width above */
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.the-downlow {
+    float: left;
+    width: 50%;
+}
+
+.pixelpeter-container {
+    float: left;
+    width: 50%;
+}
+
+.pixelpeter-png {
+    position: absolute;
+    right: -10px;
+    top: -20px;
+}
+
+@media screen and (max-width: 570px) {
+
+    .plain-item  p {
+        font-size: 16px;
+        line-height: 1.1;
+        margin: 10px 0px 4px 0px;
+    }
+
+    .pixelpeter-item {
+        width: 100%;
+        position: relative;
+        height: auto;
+        display: block;
+    }
+
+    .the-downlow {
+        float:none;
+        display: block;
+        width: 100%;
+    }
+
+    .pixelpeter-container {
+        float:none;
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .pixelpeter-png {
+        position: inherit;
+        width: 100%;
+    }
+}
+
+.center-please {
+    padding-top: 14px;
+    text-align : center;
+}
+
+.image-ee-science-gif {
+    width: 50%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.image-ee-promo {
+    width: 42%;
+    display: inline-block;
+}
+
+.image-ee-napping {
+    width: 41%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
 }
 
 #fadeout {
@@ -276,70 +385,100 @@ nav a:hover {
 
 
 
-.project-img {
-	padding: 0px 10px;
+/*project boxes*/
+
+.project-item-box {
+    overflow: auto;
+    width:80%;
+    margin: 2px auto 2px auto;  
+    font-size: 18px;
+    background-color: #F8F8F8;
+    border: 2px solid #999999;
+}
+
+.project-item-content {
+       margin-top: 10px;
+}
+
+.project-item-content img {
 	float: left;
-	
+    padding: 5px;
 }
 
-dl {
-    margin: 0px;
+
+/*===============
+Responsive YouTube Embed
+=========================*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0;
+    width: 90%;
+    margin: auto;
 }
 
-dd {
-    margin: 15px 0 5px 0;
+.video-container .wrapper {
+    float: none !important;     
+    width: auto !important;       
+    overflow: hidden !important; 
 }
 
-dt {
-    font-weight:bold;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-
-.project-item {
-    padding: 10px 10px;
-    margin:  10px 0;
-    background-color: #EFEFEF;
-    border: 2px solid #DDDDDD;
-}
+/* See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.Dlj7zQbC.dpuf */
 
 /*zzz footer fixes */
 .footer-content {
     width: 58%;
     margin: 20px auto;
-	font-family: animeace2_reg;
 }
 
 .footer-link:visited {
     color:inherit;
 }
 
+
 /*zzz petes tweeter */
 #tweeter-box {
-    background-color: #0E70A5;
-    border: 2px solid #0E70A5;
+    background-color: #004F95;
+    border-bottom: 20px solid #1c4870;
     padding: 5px 20px ;
-
     position: relative; 
     text-align: center;
 }
 
 #tweeter-content {
-    -webkit-border-radius: 5px;
+   -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: white;
     padding: 0px 5px;
     background: white;
     max-width: 520px;
-     margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
 #tweeter {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 10px;
     position: relative;
 }
 
+#tweeter-logo {
+    position: absolute;
+    top:50px;
+    right:10px;
+
+}
 
 /*zzz jquery.tweet.js stuff */
 .tweet, .query {
@@ -358,7 +497,7 @@ dt {
 
 .tweet_list li {
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: 79px;
 }
 
 .tweet_list .tweet_even {
@@ -366,7 +505,7 @@ dt {
 }
 
 .tweet_list .tweet_avatar {
-    padding-right: .5em; 
+    padding-right: .5em;
     position: absolute;
     left: 10px;
     top: 10px;
@@ -381,42 +520,8 @@ dt {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
 
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 570px) {
 
 /* ====================
     WIDE: CSS3 Effects
@@ -429,28 +534,7 @@ dt {
                 box-shadow: 0 5px 10px #aaa;
     }
 
-/* ============
-    WIDE: Menu
-   ============ */
 
-    .title {
-        float: left;
-    }
-
-    nav {
-        float: right;
-        width: 38%;
-    }
-
-/* ============
-    WIDE: Main
-   ============ */
-
-    .main article {
-        margin: auto;
-        width: 65%;
-    }
-}
 
 @media only screen and (min-width: 1140px) {
 
@@ -459,9 +543,10 @@ dt {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 100%; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
+    
 }
 
 /* ==========================================================================
@@ -516,6 +601,10 @@ dt {
 .clearfix:after {
     content: " ";
     display: table;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
 
 .clearfix:after {
@@ -580,10 +669,6 @@ dt {
         max-width: 100% !important;
     }
 
-    @page {
-        margin: 0.5cm;
-    }
-
     p,
     h2,
     h3 {
@@ -596,3 +681,6 @@ dt {
         page-break-after: avoid;
     }
 }
+
+
+
