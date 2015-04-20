@@ -171,7 +171,7 @@ body {
     
     .logo-container img{
     display: inline-block;
-    margin: 5px 0px 10px 0px;
+    margin: 0px;
 }
 
 .line-separator{
@@ -392,13 +392,21 @@ border-bottom:1px solid #bababa;
     width:80%;
     margin: 2px auto 2px auto;  
     font-size: 18px;
-    background-color: #F8F8F8;
-    border: 2px solid #999999;
+    font-family: courier new;
 }
 
 .project-item-content {
-       margin-top: 10px;
+       margin: 10px;
 }
+
+.project-item-content a:visited{
+       color: black;
+}
+
+.project-item-content a:link{
+       color: #004F95;
+}
+
 
 .project-item-content img {
 	float: left;
