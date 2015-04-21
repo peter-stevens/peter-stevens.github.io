@@ -1,0 +1,67 @@
+.screenplay {
+margin:auto;
+font-family: courier new;
+font-size: 13pt;
+max-width: 700px;
+}
+
+.action {
+}
+
+.dialog {
+padding: 0px 15%;
+max-width: 350px;
+margin: auto;
+}
+
+.dialog p{
+margin: 0px;
+}
+
+p.character {
+text-align: center;
+margin: 1em 0px 0px 0px;
+}
+
+p.parenthetical {
+text-align: center;
+}
+
+h6 {
+font-family: courier new;
+font-size: 13pt;
+margin: auto;
+background: whitesmoke;
+
+}
+
+h2 {
+font-family: courier new;
+font-size: 13pt;
+background: lightgray;
+}
+
+@media only screen and (max-device-width: 570px) {
+
+.screenplay {
+max-width: 96%;
+}
+
+.action {
+}
+
+.dialog {
+padding: 0px 15%;
+max-width: 88%;
+}
+
+.dialog p{
+margin: 0px;
+}
+
+p.character {
+text-align: center;
+margin: 1em 0px 0px 0px;
+}    
+    
+}
