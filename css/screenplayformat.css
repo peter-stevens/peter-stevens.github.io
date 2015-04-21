@@ -97,6 +97,8 @@ text-align: center;
 }
 div.dialog,div.dual {
 margin-top: 1em;
+max-width: ;
+min-width: ;
 }
 div.transition {
 margin-top: 1em;
