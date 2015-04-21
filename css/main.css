@@ -104,7 +104,7 @@ body {
 .main aside {
     border-top: 20px solid #1c4870;
     text-align: center;
-    padding: 15px;
+    padding: 50px;
 }
 
 .header-container,
@@ -166,7 +166,7 @@ body {
 
     .logo-container {
     display: inline-block;
-    margin: 10px;   
+    margin: -10px;   
 }
     
     .logo-container img{
@@ -204,12 +204,12 @@ border-bottom:1px solid #bababa;
     
     .logo-container {
     display: inline-block;
-    margin: 10px;
+    margin: -10px;
 }
     
     .logo-container img{
     display: inline-block;
-    margin: 5px 0px 10px 0px;
+    margin: 0px;
 }
    
 }
@@ -459,7 +459,7 @@ Responsive YouTube Embed
 #tweeter-box {
     background-color: #004F95;
     border-bottom: 20px solid #1c4870;
-    padding: 5px 20px ;
+    padding: 15px 20px ;
     position: relative; 
     text-align: center;
 }
