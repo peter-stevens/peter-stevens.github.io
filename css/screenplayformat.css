@@ -23,7 +23,7 @@ max-width: 700px;
 }
 
 .action {
-margin: 1em 0px 0px 0px;
+margin: 16px 0px 0px 0px;
 }
 
 .dialog {
@@ -38,7 +38,7 @@ margin: 0px;
 
 p.character {
 text-align: center;
-margin: 1em 0px 0px 0px;
+margin: 16px 0px 0px 0px;
 }
 
 p.parenthetical {
@@ -69,7 +69,7 @@ max-width: 96%;
 }
 
 .action {
-margin: 1em 0px 0px 0px;
+margin: 16px 0px 0px 0px;
 }
 
 .dialog {
@@ -83,7 +83,7 @@ margin: 0px;
 
 p.character {
 text-align: center;
-margin: 1em 0px 0px 0px;
+margin: 16px 0px 0px 0px;
 }    
     
 h6 {
