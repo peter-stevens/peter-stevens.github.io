@@ -60,10 +60,14 @@ font-size: 18px;
 background: lightgray;
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
 
 .screenplay {
 max-width: 96%;
+font-family: courier new;
+font-size: 18px;
 }
 
 .action {
