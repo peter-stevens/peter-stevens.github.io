@@ -60,7 +60,9 @@ font-size: 18px;
 background: lightgray;
 }
 
-@media only screen and (max-device-width: 570px) {
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width: 570px) {
 
 .screenplay {
 max-width: 96%;
