@@ -86,4 +86,12 @@ text-align: center;
 margin: 1em 0px 0px 0px;
 }    
     
+h6 {
+font-family: Courier new;
+font-size: 18px;
+line-height: 36px;
+margin: auto;
+background: whitesmoke;
+}
+
 }
