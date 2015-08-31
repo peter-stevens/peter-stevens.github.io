@@ -17,7 +17,7 @@
 
 .screenplay {
 margin:auto;
-font-family: courier new;
+font-family: CourierPrime;
 font-size: 18px;
 max-width: 700px;
 }
@@ -67,6 +67,7 @@ background: lightgray;
 .screenplay {
 max-width: 96%;
 font-size: 18px;    
+font-family: CourierPrime;
 }
 
 .action {
@@ -87,7 +88,7 @@ margin: 1em 0px 0px 0px;
 }    
     
 h6 {
-font-family: Courier new;
+font-family: CourierPrime;
 font-size: 18px;
 line-height: 36px;
 margin: auto;
