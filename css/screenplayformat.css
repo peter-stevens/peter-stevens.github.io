@@ -59,3 +59,39 @@ font-family: CourierPrime;
 font-size: 18px;
 background: lightgray;
 }
+
+@media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width: 570px) {
+
+.screenplay {
+max-width: 96%;
+font-size: 18px;    
+}
+
+.action {
+}
+
+.dialog {
+padding: 0px 15%;
+max-width: 88%;
+}
+
+.dialog p{
+margin: 0px;
+}
+
+p.character {
+text-align: center;
+margin: 1em 0px 0px 0px;
+}    
+    
+h6 {
+font-family: Courier new;
+font-size: 18px;
+line-height: 36px;
+margin: auto;
+background: whitesmoke;
+}
+
+}
