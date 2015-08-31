@@ -41,11 +41,11 @@ font-size: 13pt;
 background: lightgray;
 }
 
-@media only screen and (max-device-width: 570px) {
+@media only screen and (max-device-width: 480px) {
 
 .screenplay {
 max-width: 96%;
-    margin:auto;
+margin:auto;
 font-family: courier new;
 font-size: 13pt;
 }
