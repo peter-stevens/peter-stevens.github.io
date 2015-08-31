@@ -17,16 +17,20 @@ textarea {
 }
 
 @font-face {
-    font-family: 'animeace2_reg';
-    src: url('/css/font/anime-ace/animeace2_reg.ttf');
+    font-family: 'CourierPrime';
+    src: url('/css/font/CourierPrime/CourierPrime.ttf');
 }
 @font-face {
-    font-family: 'animeace2_ital';
-    src: url('/css/font/anime-ace/animeace2_ital.ttf');
+    font-family: 'CourierPrimeBold';
+    src: url('/css/font/CourierPrime/CourierPrimeBold.ttf');
 }
 @font-face {
-    font-family: 'animeace2_bld';
-    src: url('/css/font/anime-ace/animeace2_bld.ttf');
+    font-family: 'CourierPrimeItalic';
+    src: url('/css/font/CourierPrime/CourierPrimeItalic.ttf');
+}
+@font-face {
+    font-family: 'CourierPrimeBoldItalic';
+    src: url('/css/font/CourierPrime/CourierPrimeBoldItalic.ttf');
 }
 
 

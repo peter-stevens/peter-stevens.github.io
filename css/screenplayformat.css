@@ -1,11 +1,29 @@
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('/css/font/CourierPrime/CourierPrime.ttf');
+}
+@font-face {
+    font-family: 'CourierPrimeBold';
+    src: url('/css/font/CourierPrime/CourierPrimeBold.ttf');
+}
+@font-face {
+    font-family: 'CourierPrimeItalic';
+    src: url('/css/font/CourierPrime/CourierPrimeItalic.ttf');
+}
+@font-face {
+    font-family: 'CourierPrimeBoldItalic';
+    src: url('/css/font/CourierPrime/CourierPrimeBoldItalic.ttf');
+}
+
 .screenplay {
 margin:auto;
 font-family: courier new;
-font-size: 16px;
+font-size: 18px;
 max-width: 700px;
 }
 
 .action {
+    margin: 1em 0px 0px 0px;
 }
 
 .dialog {
@@ -28,16 +46,17 @@ text-align: center;
 }
 
 h6 {
-font-family: courier new;
-font-size: 16px;
+font-family: Courier new;
+font-size: 18px;
+line-height: 36px;
 margin: auto;
 background: whitesmoke;
 
 }
 
 h2 {
-font-family: courier new;
-font-size: 16px;
+font-family: CourierPrime;
+font-size: 18px;
 background: lightgray;
 }
 
