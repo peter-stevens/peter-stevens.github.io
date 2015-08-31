@@ -23,7 +23,7 @@ max-width: 700px;
 }
 
 .action {
-    margin: 1em 0px 0px 0px;
+margin: 1em 0px 0px 0px;
 }
 
 .dialog {
@@ -66,10 +66,10 @@ background: lightgray;
 
 .screenplay {
 max-width: 96%;
-font-size: 18px;    
 }
 
 .action {
+margin: 1em 0px 0px 0px;
 }
 
 .dialog {
