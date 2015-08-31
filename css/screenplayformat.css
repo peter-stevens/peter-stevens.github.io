@@ -45,6 +45,9 @@ background: lightgray;
 
 .screenplay {
 max-width: 96%;
+    margin:auto;
+font-family: courier new;
+font-size: 13pt;
 }
 
 .action {
