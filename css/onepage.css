@@ -1,0 +1,106 @@
+.screenplay {
+margin:auto;
+font-family: calibri;
+font-size: 18px;
+padding: 10px;
+max-width: 600px;
+}
+
+p {
+padding-left: 25%;
+margin-top: 0px;
+}
+
+/**
+title
+*/
+h1 {
+font-family: calibri;
+font-size: 48px;
+padding-top: 20px;
+padding-left: 5px;
+padding-bottom: 80px;
+margin: auto;
+}
+
+
+/**
+titles
+*/
+h2 {
+font-family: calibri;
+font-size: 18px;
+padding: 10px;
+margin: auto;
+background: whitesmoke;
+}
+
+
+/**
+characters
+*/
+h3 {
+font-family: calibri;
+font-size: 16px;
+padding-left: 10%;
+margin: auto;
+    
+}
+
+
+/**
+episodes
+*/
+h4 {
+font-family: calibri;
+font-size: 16px;
+line-height: 36px;
+padding-left: 10%;
+border-left: 10px;
+margin: auto;
+}
+
+
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    
+
+.screenplay {
+max-width: 96%;
+font-family: calibri;
+font-size: 18px;
+}
+
+
+p {
+padding-left: 12%;
+margin-top: 0px;
+}
+    
+/**
+characters
+*/
+h3 {
+font-family: calibri;
+font-size: 16px;
+padding-left: 6%;
+margin: auto;
+    
+}
+
+
+/**
+episodes
+*/
+h4 {
+font-family: calibri;
+font-size: 16px;
+padding-left: 6%;
+margin: auto;
+}
+    
+    
+}

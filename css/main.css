@@ -16,6 +16,9 @@ textarea {
     color: #222;
 }
 
+//*
+old font loading
+
 @font-face {
     font-family: 'CourierPrime';
     src: url('/css/font/CourierPrime/CourierPrime.ttf');
@@ -31,7 +34,9 @@ textarea {
 @font-face {
     font-family: 'CourierPrimeBoldItalic';
     src: url('/css/font/CourierPrime/CourierPrimeBoldItalic.ttf');
+
 }
+*/
 
 
 body {
@@ -142,7 +147,7 @@ body {
 .main article h1 {
     font-size:   50px;
     line-height: 1;
-    font-family: "Courier New";
+    font-family: "courier";
     display: block;
     margin: 10px 0px 0px 0px;
 }
@@ -206,7 +211,7 @@ border-bottom:1px solid #bababa;
         display: block;
         font-size: 28px;
         line-height: 1;
-        font-family: "Courier New";
+        font-family: "courier";
         text-align: center;
     }
 
@@ -407,7 +412,7 @@ border-bottom:1px solid #bababa;
     max-width: 600px;
     margin: 2px auto 2px auto;  
     font-size: 18px;
-    font-family: courier new;
+    font-family: courier;
 }
 
 .project-item-content {
