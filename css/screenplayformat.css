@@ -1,6 +1,6 @@
 .screenplay {
 margin:auto;
-font-family: courier;
+font-family: avenir next;
 font-size: 18px;
 max-width: 700px;
 }
@@ -32,7 +32,7 @@ text-align: center;
 scene marker '#' from the program Slugline
 */
 h1 {
-font-family: courier;
+font-family: avenir next;
 font-size: 18px;
 line-height: 36px;
 padding-left: 5px;
@@ -46,7 +46,7 @@ color: white;
 scene marker '##' from the program Slugline
 */
 h2 {
-font-family: courier;
+font-family: avenir next;
 font-size: 18px;
 line-height: 36px;
 padding-left: 5px;
@@ -59,7 +59,7 @@ color: white;
 sluglines
 */
 h6 {
-font-family: courier;
+font-family: avenir next;
 font-size: 18px;
 line-height: 36px;
 padding-left: 5px;
@@ -81,7 +81,7 @@ and (max-device-width : 568px) {
 
 .screenplay {
 max-width: 96%;
-font-family: courier;
+font-family: avenir next;
 font-size: 18px;
 }
 

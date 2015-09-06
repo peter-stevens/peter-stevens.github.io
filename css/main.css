@@ -147,7 +147,7 @@ body {
 .main article h1 {
     font-size:   50px;
     line-height: 1;
-    font-family: "courier";
+    font-family: "avenir next";
     display: block;
     margin: 10px 0px 0px 0px;
 }
@@ -211,7 +211,7 @@ border-bottom:1px solid #bababa;
         display: block;
         font-size: 28px;
         line-height: 1;
-        font-family: "courier";
+        font-family: "avenir next";
         text-align: center;
     }
 
@@ -412,7 +412,7 @@ border-bottom:1px solid #bababa;
     max-width: 600px;
     margin: 2px auto 2px auto;  
     font-size: 18px;
-    font-family: courier;
+    font-family: avenir next;
 }
 
 .project-item-content {
