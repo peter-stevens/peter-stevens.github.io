@@ -61,6 +61,18 @@ margin: auto;
 }
 
 
+/**
+credits
+*/
+h5 {
+font-family: calibri;
+font-size: 16px;
+line-height: 36px;
+padding-left: 10%;
+border-left: 10px;
+margin: auto;
+background: whitesmoke;
+}
 
 
 @media only screen 
