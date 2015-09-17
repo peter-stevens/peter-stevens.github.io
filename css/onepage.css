@@ -1,3 +1,27 @@
+
+html, body {
+margin:0;
+padding:0;
+}
+
+.top-bar {
+    background-color: #004F95;
+    border-bottom: 20px solid #1c4870;
+    padding: 5px;
+    text-align: center;
+    position: relative; 
+
+}
+
+.bottom-bar {
+    background-color: #004F95;
+    border-top: 20px solid #1c4870;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+
+}
+
 .screenplay {
 margin:auto;
 font-family: "Avenir Next", "Helvetica", sans-serif;
