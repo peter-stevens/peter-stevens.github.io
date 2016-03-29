@@ -213,7 +213,6 @@ border-bottom:1px solid #bababa;
 
 
 .hoffer-quote-box {
-    background-color: whitesmoke;
     padding: 5px 20px;
     font-size: 16px;
     line-height: normal;
@@ -406,6 +405,13 @@ past-event img{
     padding: 0px;
     margin: 0px;
 }
+
+.two-hundred-word-box a:visited, a:link, a:hover, a:active {
+    padding: 0px;
+    margin: 0px;
+    text-decoration-color: firebrick;
+}
+    
 
 .footer-content {
     width: 58%;
