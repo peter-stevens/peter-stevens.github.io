@@ -1,0 +1,20 @@
+
+
+body {
+    font: 20px/26px Calibri, Arial, CourierNew;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+past-event {
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}

@@ -16,32 +16,14 @@ textarea {
     color: #222;
 }
 
-//*
-old font loading
-
-@font-face {
-    font-family: 'CourierPrime';
-    src: url('/css/font/CourierPrime/CourierPrime.ttf');
-}
-@font-face {
-    font-family: 'CourierPrimeBold';
-    src: url('/css/font/CourierPrime/CourierPrimeBold.ttf');
-}
-@font-face {
-    font-family: 'CourierPrimeItalic';
-    src: url('/css/font/CourierPrime/CourierPrimeItalic.ttf');
-}
-@font-face {
-    font-family: 'CourierPrimeBoldItalic';
-    src: url('/css/font/CourierPrime/CourierPrimeBoldItalic.ttf');
-
-}
-*/
-
-
 body {
     font-size: 1em;
     line-height: 1.4;
+}
+
+iframe { 
+width: 100%; 
+border: 0
 }
 
 ::-moz-selection {
@@ -66,6 +48,7 @@ hr {
 img {
     vertical-align: middle;
 }
+
 
 img.center {
     display: block;
@@ -103,12 +86,6 @@ body {
     margin: 0;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-
-
 .footer-container,
 .main aside {
     border-top: 20px solid #1c4870;
@@ -131,14 +108,6 @@ body {
     image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
-
-.title {
-    color: white;
-}
-
-/* ==============
-    MOBILE: Menu
-   ============== */
 
 /* ==============
     MOBILE: Main
@@ -206,7 +175,7 @@ border-bottom:1px solid #bababa;
 
 
 @media screen and (max-width: 570px) {
-
+    
     .main article h1 {
         display: block;
         font-size: 28px;
@@ -243,6 +212,14 @@ border-bottom:1px solid #bababa;
 }
 
 
+.hoffer-quote-box {
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    font-size: 16px;
+    line-height: normal;
+    text-align: left;
+}
+
 .main aside {
     color: white;
     padding: 0px 5% 10px;
@@ -264,36 +241,6 @@ border-bottom:1px solid #bababa;
    Author's custom styles zzz
    ========================================================================== */
 
-.punchleft {
-    border: 3px solid black;
-    float: left;
-    margin: 3px 10px 3px -150px;
-}
-
-.punchright {
-    border: 3px solid black;
-    float: right;
-    margin: 3px -60px 3px 10px;
-    position: relative;
-    z-index: 2;
-}
-
-/* titles for navigation */
-
-.nav-title-bg {
-    background-color: #004F95;
-    border-bottom: 5px solid #1c4870;
-    border-top: 5px solid #1c4870;
-    margin-bottom: 5px;
-    margin-left: -5%;
-}
-
-.nav-title {
-    color: white;
-    font-size: 28px; 
-    margin:auto;
-    width: 80%;
-}
 
 .a-link-text-dec-none a{
     text-decoration: none;
@@ -303,11 +250,6 @@ border-bottom:1px solid #bababa;
     width: 50%;
 }
 
-.plain-item  p {
-    font-size: 18px;
-    line-height: 1.1;
-    margin: 10px 0px 4px 0px;
-}
 
 .pixelpeter-item {
     width: 75%; /* see article width above */
@@ -330,6 +272,11 @@ border-bottom:1px solid #bababa;
     position: absolute;
     right: -10px;
     top: -20px;
+}
+
+/* ARCHIVE */
+past-event img{
+    width: 100%;
 }
 
 @media only screen and (max-width: 570px) {
@@ -365,6 +312,10 @@ border-bottom:1px solid #bababa;
         position: inherit;
         width: 100%;
     }
+}
+
+past-event img{
+    width: 100%;
 }
 
 .center-please {
@@ -408,11 +359,14 @@ border-bottom:1px solid #bababa;
 
 .project-item-box {
     overflow: auto;
-    width:75%;
     max-width: 600px;
     margin: 2px auto 2px auto;  
     font-size: 18px;
     font-family: "Avenir Next", "Helvetica", sans-serif;
+}
+
+.project-item-box blockquote {
+    font-style: italic;
 }
 
 .project-item-content {
@@ -434,36 +388,25 @@ border-bottom:1px solid #bababa;
 }
 
 
-/*===============
-Responsive YouTube Embed
-=========================*/
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0;
-    width: 90%;
-    margin: auto;
+.two-hundred-word-box {
+    font-size: 16px;
+    font-family: "Avenir Next", "Helvetica", sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+    max-width: 800px;
 }
 
-.video-container .wrapper {
-    float: none !important;     
-    width: auto !important;       
-    overflow: hidden !important; 
+.two-hundred-word-box h6 {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.two-hundred-word-box h3 {
+    padding: 0px;
+    margin: 0px;
 }
-/* See more at: http://avexdesigns.com/responsive-youtube-embed/#sthash.Dlj7zQbC.dpuf */
 
-/*zzz footer fixes */
 .footer-content {
     width: 58%;
     margin: 20px auto;
@@ -575,6 +518,8 @@ Responsive YouTube Embed
         margin: 0 auto;
     }
     
+
+        
 }
 
 /* ==========================================================================
