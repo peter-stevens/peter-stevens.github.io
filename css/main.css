@@ -152,14 +152,18 @@ body {
 
 }
 
-    .logo-container {
+.logo-container {
     display: inline-block;
     margin: -10px;   
 }
     
-    .logo-container img{
+.logo-container img{
     display: inline-block;
     margin: 0px;
+}
+
+.top-icons img {
+    padding: 0px 10px;
 }
 
 .line-separator{
@@ -387,6 +391,34 @@ past-event img{
 }
 
 
+.two-hundred-word-box-toc {
+    font-size: 16px;
+    font-family: "Avenir Next", "Helvetica", sans-serif;
+    background-color: whitesmoke;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.two-hundred-word-box-toc a {
+    text-decoration: none;
+}
+
+.two-hundred-word-box-toc a:visited {
+    color: #939393;
+}
+
+
+.two-hundred-word-box-toc h6 {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+.two-hundred-word-box-toc h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
 .two-hundred-word-box {
     font-size: 16px;
     font-family: "Avenir Next", "Helvetica", sans-serif;
@@ -404,12 +436,6 @@ past-event img{
 .two-hundred-word-box h3 {
     padding: 0px;
     margin: 0px;
-}
-
-.two-hundred-word-box a:visited, a:link, a:hover, a:active {
-    padding: 0px;
-    margin: 0px;
-    text-decoration-color: firebrick;
 }
     
 
