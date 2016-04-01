@@ -21,11 +21,6 @@ body {
     line-height: 1.4;
 }
 
-iframe { 
-width: 100%; 
-border: 0
-}
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -36,14 +31,6 @@ border: 0
     text-shadow: none;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
 
 img {
     vertical-align: middle;
@@ -101,12 +88,6 @@ body {
 
 .footer-container img{
     padding:10px;
-    image-rendering: optimizeSpeed;             /* FUCK SMOOTHING, GIVE ME SPEED  */
-    image-rendering: -moz-crisp-edges;          /* Firefox                        */
-    image-rendering: -o-crisp-edges;            /* Opera                          */
-    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
-    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
-    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
 /* ==============
@@ -164,16 +145,6 @@ body {
 
 .top-icons img {
     padding: 0px 10px;
-}
-
-.line-separator{
-
-height:1px;
-
-background:#bababa;
-
-border-bottom:1px solid #bababa;
-
 }
 
 
