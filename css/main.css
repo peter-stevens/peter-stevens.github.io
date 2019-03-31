@@ -452,6 +452,7 @@ hr {
     text-align: center;
 }
 
+
 #tweeter-content {
    -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -511,6 +512,68 @@ hr {
     vertical-align: middle;
 }
 
+/* ==========================================================================
+   Wedding
+   ========================================================================== */
+
+
+
+#wedding-banner-box {
+    background-color: #D4AF37;
+    border-bottom: 20px solid #a67c00;
+    padding: 15px 20px ;
+    position: relative; 
+    text-align: center;
+}
+
+p.savethedate {
+    font-size: 20pt;
+    text-align: center;
+    font-family: "tintin-dialogue.ttf", sans-serif;
+    color: gray;
+
+}
+
+@font-face {
+  font-family: "tintin-dialogue.ttf";
+  src: url(/wedding/font/tintin-dialogue.ttf);
+}
+
+@font-face {
+  font-family: "apple-chancery.ttf";
+  src: url(/wedding/font/apple-chancery.ttf);
+}
+
+.main article h4 {
+    color: #e5c100;
+    text-align: center;
+    font-size:   100px;
+    line-height: 1;
+    font-family: "apple-chancery.ttf";
+    display: block;
+    margin: 10px 0px 0px 0px;
+     text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    
+}
+    
+.wedding-footer-container,
+.wedding-main aside {
+    border-top: 20px solid #a67c00;
+    text-align: center;
+    padding: 50px;
+}
+
+.wedding-header-container,
+.wedding-footer-container,
+.wedding-main aside {
+    background: #D4AF37; /*#ff7900;*/
+}
+
+}
 
 /* ==========================================================================
    Media Queries
@@ -678,5 +741,11 @@ hr {
     h3 {
         page-break-after: avoid;
     }
+    
+    
+    
+    
+
+    
 }
 

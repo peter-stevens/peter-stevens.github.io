@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Peter Stevens - 200 Words</title>
+<meta name="description" content="Toronto Comedian Peter Stevens' Writing Portfolio.">
+<link href="/favicon.ico" rel="icon">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<link rel="stylesheet" href="/css/normalize.min.css">
+<link rel="stylesheet" href="/css/main.css">
+    
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+<a id="top">
+<div id="tweeter-box">
+    <div class="top-icons">
+        <a href="http://www.peterstevensonline.com">
+            <img src="/img/pixel-peter-bun-2015-400x.png" id="top"></a>
+     <a href="mailto:peterstevensonline@gmail.com">
+         <img src="/img/gmail-pixel-8bit-logo.png"></a>
+    <a href="http://www.facebook.com/peter.stevens.568">
+        <img src="/img/facebook-pixel-logo.png"></a>
+    <a href="http://twitter.com/_PeterStevens">
+        <img src="/img/twitter-pixel-logo.png"></a>
+    </div> 
+</div>
+</a>  
+    
+<div class="main-container">
+<div class="main wrapper clearfix">
+
+<article>
+      <div class="main-title-container">
+          <h1>Cool School</h1>
+      </div>
+
+      
+<div class="project-item-box">
+    <div class="project-item-content">
+        <div class="two-hundred-word-box-toc">
+            
+<h2>Vietnam War</h2>
+<p>Click on each term for more information.</p>
+<button class="accordion">Ho Chi Minh</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">My Lai</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">People</button>
+<div class="panel">
+    <button class="accordion">Ho Chi Minh</button>
+<div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+</div>
+
+                </article>
+        </div>
+    </div>
+    
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+        
+</body>
+</html>

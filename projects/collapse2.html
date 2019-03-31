@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Peter Stevens - 200 Words</title>
+<meta name="description" content="Toronto Comedian Peter Stevens' Writing Portfolio.">
+<link href="/favicon.ico" rel="icon">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+<link rel="stylesheet" href="/css/normalize.min.css">
+<link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/w3.css">
+    
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size:1.1em;
+    margin: 1em 0;
+}
+
+.description {
+  margin: 1em auto 2.25em;
+}
+
+body {
+    width: 40%;
+    min-width: 300px;
+    max-width: 400px;
+    margin: 1.5em auto;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+  
+    .inner {
+        padding-left: 1em;
+        overflow: hidden;
+        display: none;
+      
+        &.show {
+          /*display: block;*/
+        }
+    }
+  
+    li {
+        margin: .5em 0;
+      
+        a.toggle {
+            width: 100%;
+            display: block;
+            background: rgba(0,0,0,0.78);
+            color: #fefefe;
+            padding: .75em;
+            border-radius: 0.15em;
+            transition: background .3s ease;
+          
+            &:hover {
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+}
+</style>
+</head>
+<body>
+<a id="top">
+<div id="tweeter-box">
+    <div class="top-icons">
+        <a href="http://www.peterstevensonline.com">
+            <img src="/img/pixel-peter-bun-2015-400x.png" id="top"></a>
+     <a href="mailto:peterstevensonline@gmail.com">
+         <img src="/img/gmail-pixel-8bit-logo.png"></a>
+    <a href="http://www.facebook.com/peter.stevens.568">
+        <img src="/img/facebook-pixel-logo.png"></a>
+    <a href="http://twitter.com/_PeterStevens">
+        <img src="/img/twitter-pixel-logo.png"></a>
+    </div> 
+</div>
+</a>  
+    
+<div class="main-container">
+<div class="main wrapper clearfix">
+
+<article>
+      <div class="main-title-container">
+          <h1>Cool School</h1>
+      </div>
+
+      
+<div class="project-item-box">
+    <div class="project-item-content">
+        <div class="two-hundred-word-box-toc">
+            
+            <h1>A Cool Accordion</h1>
+
+<p class="description">
+  You could simply toggle the .show class (if display: block is uncommented in the CSS) in JavaScript, but you'll lose the animation.
+</p>
+
+<ul class="accordion">
+  <li>
+    <a class="toggle" href="javascript:void(0);">Item 1</a>
+    <ul class="inner">
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Item 2</a>
+    <ul class="inner">
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Item 3</a>
+    <ul class="inner">
+      <li>
+        <a href="#" class="toggle">Open Inner</a>
+        <div class="inner">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
+            blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
+          </p>
+        </div>
+      </li>
+      
+      <li>
+        <a href="#" class="toggle">Open Inner #2</a>
+        <div class="inner">
+          <p>
+            Children will automatically close upon closing its parent.
+          </p>
+        </div>
+      </li>
+      
+      <li>Option 3</li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Item 4</a>
+    <ul class="inner">
+      <li>
+        <a href="#" class="toggle">Technically any number of nested elements</a>
+        <ul class="inner">
+          <li>
+            <a href="#" class="toggle">Another nested element</a>
+            <div class="inner">
+              <p>
+                As long as the inner element has inner as one of its classes then it will be toggled.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus placerat fringilla. Duis a elit et dolor laoreet volutpat. Aliquam ultrices mauris id mattis imperdiet. Aenean cursus ultrices justo et varius. Suspendisse aliquam orci id dui dapibus
+                blandit. In hac habitasse platea dictumst. Sed risus velit, pellentesque eu enim ac, ultricies pretium felis.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+      
+      <li>Option 2</li>
+      
+      <li>Option 3</li>
+    </ul>
+  </li>
+</ul>
+
+                </article>
+        </div>
+    </div>
+    
+<script>
+$('.toggle').click(function(e) {
+  	e.preventDefault();
+  
+    var $this = $(this);
+  
+    if ($this.next().hasClass('show')) {
+        $this.next().removeClass('show');
+        $this.next().slideUp(350);
+    } else {
+        $this.parent().parent().find('li .inner').removeClass('show');
+        $this.parent().parent().find('li .inner').slideUp(350);
+        $this.next().toggleClass('show');
+        $this.next().slideToggle(350);
+    }
+});
+</script>
+
+        
+</body>
+</html>
